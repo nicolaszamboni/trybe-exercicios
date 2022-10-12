@@ -15,6 +15,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 1-1: _Unix & Bash- Part 1_
 - [x] 1-2: _Unix & Bash- Part 2_
 
+
 ##### Bloco 2: [Git & GitHub](https://github.com/nicolaszamboni/trybe-exercicios/tree/main/Fundamentos/Unix-Bash)
 
 - [x] 2-1: _O que é e para que serve?_
