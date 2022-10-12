@@ -1,4 +1,4 @@
-# Meu repositório de exercícios
+![Meu Repositório](https://user-images.githubusercontent.com/114950635/195418117-8ec8d94d-32f0-42e4-8af4-e18647e0ed57.png)
 
 ## Trybe
 
