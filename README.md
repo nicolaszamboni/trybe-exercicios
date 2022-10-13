@@ -23,7 +23,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 #### Bloco 3: [Introdução à JavaScript](https://github.com/nicolaszamboni/trybe-exercicios/tree/main/Fundamentos/introducao-html-css)
 
-- [ ] 3-1: _JavaScript - Primeiros Passos_
+- [x] 3-1: _JavaScript - Primeiros Passos_
 - [ ] 3-2: _JavaScript - Array e loop For_
 - [ ] 3-3: _JavaScript - Lógica de Programação e Algoritmos_
 - [ ] 3-4: _JavaScript - Objetos e funções_
