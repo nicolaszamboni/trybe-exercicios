@@ -23,10 +23,19 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 3: Introdução à HTML & CSS
 
-- [ ] 3-1: _O que é e para que serve?_
+- [x] 3-1: _O que é e para que serve?_
 - [ ] 3-2: _Entendendo os comandos_
 - [ ] 3-3: _O que é e para que serve?_
 - [ ] 3-4: _Entendendo os comandos_
 - [ ] 3-5: _O que é e para que serve?_
 
-#### Continua
+#### Bloco 4: Introdução à JavaScript
+
+- [ ] 4-1: _JavaScript - Primeiros Passos_
+- [ ] 4-2: _JavaScript - Array e loop For_
+- [ ] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
+- [ ] 4-4: _JavaScript - Objetos e funções_
+- [ ] 4-5: _JavaScript ES6 - let, const, arrow functions e template literals_
+- [ ] 4-6: _Projeto - Playground Functions_
+
+#### CONTINUA
