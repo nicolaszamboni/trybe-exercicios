@@ -1,0 +1,33 @@
+div:hover{
+    border: 3px solid black;
+    width: 300px;
+}
+
+div{
+    height: 100px;
+}
+
+.um{
+    color: blue;
+    font-style: italic;
+}
+
+.dois{
+    color: purple;
+}
+
+.tres{
+    color: yellow;
+    font-size: 1.5em;
+    text-decoration: dashed;
+    font-style: italic;
+}
+
+.quatro{
+    color:darkslateblue
+}
+
+.cinco{
+    color:cadetblue;
+    font-style: italic;
+}
