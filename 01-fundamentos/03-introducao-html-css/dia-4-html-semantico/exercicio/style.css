@@ -3,12 +3,12 @@
     padding: 0;
   }
 
-#paragrafo1{
-    width: 1000px;
+.paragrafo1{
+    width: 700px;
 }
 
 h1 {
-    background-color: rgb(85, 23, 114);
+    background-color: rgb(43, 15, 56);
     color: white;
     padding-left: 30px;
 }
@@ -24,4 +24,14 @@ h1 {
 #links {
     background-color: rgb(84, 84, 158);
     padding-top: 2px;
+}
+
+div {
+    margin-left: 350px;
+    margin-right: 350px;
+    background-color: white;
+}
+
+body{
+    background-color: rgb(85, 23, 114);
 }
