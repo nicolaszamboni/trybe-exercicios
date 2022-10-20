@@ -7,6 +7,7 @@ const angulo1 = 50;
 const angulo2 = 100;
 const angulo3 = -30;
 
+
 if(angulo1 > 0 && angulo2 > 0 && angulo3 > 0 && angulo1 + angulo2 + angulo3 === 180){
     console.log(true);
 }
@@ -19,3 +20,13 @@ else if(angulo1 > 0 && angulo2 > 0 && angulo3 > 0 && angulo1 + angulo2 + angulo3
 else{
     console.log("erro")
 }
+
+// let sumOfAngles = degreeAngleA + degreeAngleB + degreeAngleC;
+// let allAnglesArePositives = degreeAngleA > 0 && degreeAngleB > 0 && degreeAngleC > 0;
+// if(allAnglesArePositives && sumOfAngles){
+//       console.log(true);
+//  else if (allAnglesArePositives && sumOfAngles != 180){
+//       console.log(false);
+//   } else {
+//     console.log('Erro: ângulo inválido');
+//   }
