@@ -54,15 +54,24 @@
 // }
 // console.log(numeroMaior);
 
+//SEXTO EXERCICIO
+// for (let i = 0; i < numbers.length; i++){
+// if (numbers[i] % 2 != 0){
+// impares += 1;
+// }
+// }
+// console.log(impares);
+
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 let soma = 0;
 let media = 0;
 let numeroMaior = 0;
 let impares = 0;
+let numeroMenor = 105;
 
 for (let i = 0; i < numbers.length; i++){
-    if (numbers[i] % 2 != 0){
-    impares += 1;
+    if (numbers[i] < numeroMenor){
+        numeroMenor = numbers[i];
     }
-}
-console.log(impares);
+    }
+    console.log(numeroMenor);
