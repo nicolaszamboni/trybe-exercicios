@@ -17,21 +17,34 @@
 
 // Utilizando o array que acabou de criar, imprima o resultado da divisão de cada um dos elementos por 2.
 
-let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
-let soma = 0;
-let media = 0;
 
-//     console.log(numbers[i]);
+// PRIMEIRO EXERCICIO
+// console.log(numbers[i]);
 
-//     soma += numbers[i];
+// SEGUNDO EXERCICIO
+// soma += numbers[i];
 // }
 // console.log(soma);
 
+// TERCEIRO EXERCICIO
+// soma += numbers[i];
+// media = soma / numbers.length;
+// }
+// console.log(media);
 
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let soma = 0;
+let media = 0;
 
 for (let i = 0; i < numbers.length; i++){
     soma += numbers[i];
     media = soma / numbers.length;
 }
+    if (media > 20){
+        console.log('valor maior que 20')
+    }else {
+        console.log('valor menor ou igual a 20')
+    }
 
-console.log(media);
+    
+    
