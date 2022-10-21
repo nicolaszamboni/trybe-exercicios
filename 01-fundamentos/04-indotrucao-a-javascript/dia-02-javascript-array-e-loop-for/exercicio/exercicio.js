@@ -19,20 +19,24 @@
 
 
 // PRIMEIRO EXERCICIO
+// for (let i = 0; i < numbers.length; i++){
 // console.log(numbers[i]);
 
 // SEGUNDO EXERCICIO
+// for (let i = 0; i < numbers.length; i++){
 // soma += numbers[i];
 // }
 // console.log(soma);
 
 // TERCEIRO EXERCICIO
+// for (let i = 0; i < numbers.length; i++){
 // soma += numbers[i];
 // media = soma / numbers.length;
 // }
 // console.log(media);
 
 // QUARTO EXERCICIO
+// for (let i = 0; i < numbers.length; i++){
 // soma += numbers[i];
 // media = soma / numbers.length;
 // }
@@ -42,14 +46,23 @@
 //     console.log('valor menor ou igual a 20')
 // }
 
+//QUINTO EXERCICIO
+// for (let i = 0; i < numbers.length; i++){
+// if (numbers[i] > numeroMaior){
+//    numeroMaior = numbers[i];
+// }
+// }
+// console.log(numeroMaior);
+
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 let soma = 0;
 let media = 0;
 let numeroMaior = 0;
+let impares = 0;
 
 for (let i = 0; i < numbers.length; i++){
-    if (numbers[i] > numeroMaior){
-        numeroMaior = numbers[i];
+    if (numbers[i] % 2 != 0){
+    impares += 1;
     }
 }
-console.log(numeroMaior);
+console.log(impares);
