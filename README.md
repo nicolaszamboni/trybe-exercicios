@@ -32,7 +32,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 #### Bloco 4: [Introdução à JavaScript](https://github.com/nicolaszamboni/trybe-exercicios/tree/main/01-fundamentos/04-indotrucao-a-javascript/dia-01-javascript-primeiros-passos)
 
 - [x] 4-1: _JavaScript - Primeiros Passos_
-- [ ] 4-2: _JavaScript - Array e loop For_
+- [x] 4-2: _JavaScript - Array e loop For_
 - [ ] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
 - [ ] 4-4: _JavaScript - Objetos e funções_
 - [ ] 4-5: _JavaScript ES6 - let, const, arrow functions e template literals_
