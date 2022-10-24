@@ -38,15 +38,14 @@
 //     console.log('Baêta é a mais nova')
 // }
 
-let idade = [10, 1, 20, 30, 8, 7, 3, 100];
-let menorIdade = idade[0];
-
-for (let index = 0; index < idade.length; index++){
-    if(menorIdade > idade[index]){
-        menorIdade = idade[index];
-        console.log(menorIdade)
-    }
-}
+// let idade = [10, 1, 20, 30, 8, 7, 3, 100];
+// let menorIdade = idade[0];
+// for (let index = 0; index < idade.length; index++){
+//     if(menorIdade > idade[index]){
+//         menorIdade = idade[index];
+//         console.log(menorIdade)
+//     }
+// }
 
 
 
