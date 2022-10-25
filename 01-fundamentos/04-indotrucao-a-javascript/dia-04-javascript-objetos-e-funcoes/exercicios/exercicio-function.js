@@ -5,13 +5,41 @@
 // verificaPalindrome('desenvolvimento')
 // Retorno esperado: false
 
+function verificaPalindromo(nome){
+    let nomeInvertido = '';
+    for (let i = nome.length - 1; i >= 0; i--){
+    nomeInvertido += nome[i];
+    }
+    if (nome === nomeInvertido){
+        return true;
+    }else{
+        return false;
+    }
+}
+
+console.log(verificaPalindromo('pereira'));
+
 // Crie uma função que receba um array de inteiros e retorne o índice do maior valor.
 // Array de teste: [2, 3, 6, 7, 10, 1];.
 // Valor esperado no retorno da função: 4.
 
+function array(numeros){
+    let maiorNumero = 0;
+    for (let indice in numeros){
+        if (numeros[maiorNumero] < numeros[indice]){
+            maiorNumero = indice;
+        }
+    }
+    return maiorNumero;
+}
+
+console.log(array([2, 3, 6, 7, 10, 1]));
+
 // Crie uma função que receba um array de inteiros e retorne o índice do menor valor.
 // Array de teste: [2, 4, 6, 7, 10, 0, -3];.
 // Valor esperado no retorno da função: 6.
+
+
 
 // Crie uma função que receba um array de nomes e retorne o nome com a maior quantidade de caracteres.
 // Array de teste: ['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana'];.
@@ -32,17 +60,3 @@
 // Retorno esperado: true
 // verificaFimPalavra('joaofernando', 'fernan');
 // Retorno esperado: false
-
-function verificaPalindromo(nome){
-    let nomeInvertido = '';
-    for (let i = nome.length - 1; i >= 0; i--){
-    nomeInvertido += nome[i];
-    }
-    if (nome === nomeInvertido){
-        return true;
-    }else{
-        return false;
-    }
-}
-
-console.log(verificaPalindromo('pereira'));
