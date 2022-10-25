@@ -99,3 +99,18 @@ console.log(soma(5));
 // Retorno esperado: true
 // verificaFimPalavra('joaofernando', 'fernan');
 // Retorno esperado: false
+
+function verificarPalavra (word, ending){
+    word = word.split('');
+    ending = ending.split('');
+    let verificacao = true;
+    console.log(word)
+
+    for(let index = 0; index < ending.length; index++){
+        if (word[word.length - ending.length + index] != ending[index]){
+            verificacao = false;
+        }
+    }
+    return verificacao;
+}
+console.log(verificarPalavra('trybe', 'be'));
