@@ -70,12 +70,24 @@ console.log(maiorPalavra(['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joan
 
 function numerosRepetidos(inteiros){
     let maisRepetidos = 0;
+    let verificaNumero = 0;
+    let contNumero = 0;
+    let indexNumeroRepetido = 0;
+
     for (let index in inteiros){
-        if (inteiros[index] === inteiros){
-            maisRepetidos += 1;
+        verificaNumero = inteiros[index];
+        for (let index2 in inteiros){
+        if (verificaNumero === inteiros[index2]){
+            contNumero += 1;
         }
     }
-    return maisRepetidos;
+    if (contNumero > maisRepetidos){
+        maisRepetidos = contNumero;
+        indexNumeroRepetido = index;
+    }
+    contNumero = 0;
+    }
+    return inteiros[indexNumeroRepetido];
 }
 console.log(numerosRepetidos([2, 3, 2, 5, 8, 2, 3]));
 
