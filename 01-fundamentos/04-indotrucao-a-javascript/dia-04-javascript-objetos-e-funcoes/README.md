@@ -1,13 +1,93 @@
-# Exercicios
+# Exercícios - objetos e for/in
 
-O fatorial é a multiplicação de um número natural pelos seus antecessores, exceto o zero. Por exemplo:
-O fatorial é representado pelo sinal !
-4! = 4 x 3 x 2 x 1 = 24
+Usando o objeto abaixo, faça os exercícios a seguir:
 
-### Com base nessas informações, crie um algoritmo que imprima na tela o fatorial de 10.
+let info = {
+  personagem: 'Margarida',
+  origem: 'Pato Donald',
+  nota: 'Namorada do personagem principal nos quadrinhos do Pato Donald',
+};
 
-### Utilize a estrutura de repetição for para desenvolver um algoritmo que seja capaz de inverter uma palavra. Por exemplo, a palavra “banana” seria invertida para “ananab”. Utilize a string abaixo como exemplo, depois troque por outras para verificar se seu algoritmo está funcionando corretamente.
+### Imprima no console uma mensagem de boas-vindas para a personagem acima, incluindo seu nome. Use a sintaxe meuObjeto.chave. Valor esperado no console:
+Bem-vinda, Margarida
 
-### Utilize a estrutura de repetição for para escrever dois algoritmos: um que retorne a maior palavra desse array e outro que retorne a menor. Considere o número de caracteres de cada palavra.
+### Insira no objeto uma nova propriedade com o nome de chave ‘recorrente’ e o valor ‘Sim’ e, em seguida, imprima o objeto no console. Use a sintaxe meuObjeto['chave'] = valor. Valor esperado no console:
+{
+  personagem: 'Margarida',
+  origem: 'Pato Donald',
+  nota: 'Namorada do personagem principal nos quadrinhos do Pato Donald',
+  recorrente: 'Sim'
+}
 
-### Um número primo é um número inteiro maior do que 1 que possui somente dois divisores, ou seja, é divisível por 1 e por ele mesmo. Sabendo disso, escreva um algoritmo que retorne o maior número primo entre 2 e 50.
+### Faça um for/in que mostre todas as chaves do objeto. Valor esperado no console:
+personagem
+origem
+nota
+recorrente
+
+### Faça um novo for/in, mas agora mostre todos os valores das chaves do objeto. Valor esperado no console:
+Margarida
+Pato Donald
+Namorada do personagem principal nos quadrinhos do Pato Donald
+Sim
+
+### Agora, defina um segundo objeto com a mesma estrutura (as mesmas chaves) do primeiro e os seguintes valores: ‘Tio Patinhas’, ‘Christmas on Bear Mountain, Dell’s Four Color Comics #178’, ‘O último MacPatinhas’, ‘Sim’. Então, imprima os valores de cada objeto juntos, de acordo com cada uma das chaves. Valor esperado no console:
+Margarida e Tio Patinhas
+Pato Donald e Christmas on Bear Mountain, Dell's Four Color Comics #178
+Namorada do personagem principal nos quadrinhos do Pato Donald e O último MacPatinhas
+Ambos recorrentes // Atenção para essa última linha!
+
+### Acesse as chaves nome, sobrenome e titulo, que está dentro da chave livrosFavoritos, e faça um console.log no seguinte formato: “O livro favorito de Julia Pessoa se chama ‘O Pior Dia de Todos’”.
+
+### Adicione um novo livro favorito na chave livrosFavoritos, que é um array. Atribua a essa chave um objeto contendo as seguintes informações:
+{
+  titulo: 'Harry Potter e o Prisioneiro de Azkaban',
+  autor: 'JK Rowling',
+  editora: 'Rocco',
+}
+
+### Acesse as chaves nome e livrosFavoritos e faça um console.log no seguinte formato: “Julia tem <quantidade> livros favoritos”, onde “<quantidade>” é um número gerado automaticamente pelo seu código.
+
+# Exercícios - funções
+
+### Crie uma função que receba uma string e retorne true se for um palíndromo, ou false, se não for.
+
+Exemplo de palíndromo: arara
+verificaPalindrome('arara')
+Retorno esperado: true
+verificaPalindrome('desenvolvimento')
+Retorno esperado: false
+
+### Crie uma função que receba um array de inteiros e retorne o índice do maior valor.
+
+Array de teste: [2, 3, 6, 7, 10, 1];.
+Valor esperado no retorno da função: 4.
+
+### Crie uma função que receba um array de inteiros e retorne o índice do menor valor.
+
+Array de teste: [2, 4, 6, 7, 10, 0, -3];.
+Valor esperado no retorno da função: 6.
+
+### Crie uma função que receba um array de nomes e retorne o nome com a maior quantidade de caracteres.
+
+Array de teste: ['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana'];.
+Valor esperado no retorno da função: Fernanda.
+
+### Crie uma função que receba um array de inteiros e retorne o inteiro que mais se repete.
+
+Array de teste: [2, 3, 2, 5, 8, 2, 3];.
+Valor esperado no retorno da função: 2.
+
+### Crie uma função que receba um número natural (número inteiro não negativo) N e retorne o somatório de todos os números de 1 até N.
+
+Valor de teste: N = 5.
+Valor esperado no retorno da função: 1+2+3+4+5 = 15.
+
+### Crie uma função que receba uma string word e outra string ending. Verifique se a string ending é o final da string word. Considere que a string ending sempre será menor que a string word.
+
+Valor de teste: 'trybe' e 'be'
+Valor esperado no retorno da função: true
+verificaFimPalavra('trybe', 'be');
+Retorno esperado: true
+verificaFimPalavra('joaofernando', 'fernan');
+Retorno esperado: false
