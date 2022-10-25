@@ -10,24 +10,8 @@ let roman = {
     M: 1000,
 };
 
-function romanaParaNumero(numero){
+function romanoParaNumero(numero){
     
-    let len = numero.length;
-    let soma = roman[numero[len - 1]];
-    let atual = roman[numero[len - 1]];
-
-    for (let index = 2; index <= len; index++){
-        let prox = roman[numero[len -1]];
-        if (atual <= prox) {
-            soma += prox;
-          } else {
-            soma -= prox;
-          }
-      
-          atual = prox;
-        }
-      
-        return soma;
 }
 
 console.log(romanaParaNumero('VI'))
