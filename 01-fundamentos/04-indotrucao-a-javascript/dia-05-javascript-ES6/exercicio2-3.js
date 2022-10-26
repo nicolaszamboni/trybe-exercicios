@@ -3,16 +3,14 @@
 const maiorPalavra = (frase) => {
 
     let fraseSeparada = frase.split(' ');
-    let palavra = 0;
-    let resultado = '';
+    let palavra = fraseSeparada[0];
 
     for (let index of fraseSeparada){
-        if (index.length > palavra){
-            palavra = index.length;
-            resultado = index;
+        if (index.length > palavra.length){
+            palavra = index;
         }
     }
-    return resultado;
+    return palavra;
 }
 
 console.log(maiorPalavra('Antônio foi no banheiro e não sabemos o que aconteceu'));
