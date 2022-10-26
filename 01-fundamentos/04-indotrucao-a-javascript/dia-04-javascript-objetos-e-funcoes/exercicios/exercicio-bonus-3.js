@@ -21,3 +21,12 @@ const basket = [
     'Pera', 'Melancia', 'Jaca', 'Banana', 'Laranja', 'Jaca',
     'Banana', 'Pera', 'Abacate', 'Uva',
   ];
+
+  const strFrequency = function (fruta) {
+    return fruta.reduce((count, word) => {
+          count[word] = (count[word] || 0) + 1;
+          return count;
+    }, {})
+  }
+
+  console.log(strFrequency(basket));
