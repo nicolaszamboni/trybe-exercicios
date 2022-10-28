@@ -38,7 +38,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 4-5: _JavaScript ES6 - let, const, arrow functions e template literals_
 - [x] 4-6: _Projeto - Playground Functions_
 
-#### Bloco 5: [JavaScript: DOM, Eventos e Web Storage](https://github.com/nicolaszamboni/trybe-exercicios/tree/main/01-fundamentos/04-indotrucao-a-javascript/dia-01-javascript-primeiros-passos)
+#### Bloco 5: [JavaScript: DOM, Eventos e Web Storage](https://github.com/nicolaszamboni/trybe-exercicios/tree/main/01-fundamentos/05-javascript-dom-eventos-web-storage)
 
 - [x] 5-1: _JavaScript - DOM e seletores_
 - [ ] 5-2: _JavaScript - Trabalhando com elementos_
