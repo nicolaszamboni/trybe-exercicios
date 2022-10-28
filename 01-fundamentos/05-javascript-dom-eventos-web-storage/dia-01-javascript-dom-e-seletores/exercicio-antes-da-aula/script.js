@@ -19,3 +19,19 @@ emergencyHeader[index].style.backgroundColor = "purple";
 
 const trybe = document.getElementById('footer-container');
 trybe.style.backgroundColor = "green";
+
+// const emergencyHeader = () => {
+//     let emergency = document.querySelectorAll('.emergency-tasks h3');
+//     for (let index = 0; index < emergency.length; index += 1) {
+//         emergency[index].style.backgroundColor = "purple";
+//     }
+//     }
+//     emergencyHeader();
+
+// const noEmergencyHeader = () => {
+//     let noEmergency = document.querySelectorAll('.no-emergency-tasks h3');
+//     for (let index = 0; index < noEmergency.length; index += 1) {
+//         noEmergency[index].style.backgroundColor = "black";
+//     }
+//     }
+//     noEmergencyHeader();
