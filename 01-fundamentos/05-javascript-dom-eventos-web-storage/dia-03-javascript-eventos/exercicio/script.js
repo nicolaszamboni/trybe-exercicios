@@ -65,33 +65,44 @@ const buttons = () => {
   const feriados = document.querySelectorAll(".holiday");
   for (let index = 0; index < feriados.length; index += 1) {
     if (!feriados[index].classList.contains("newColor")) {
-    feriados[index].classList.add("newColor");
+      feriados[index].classList.add("newColor");
     } else {
-        feriados[index].classList.remove("newColor");
+      feriados[index].classList.remove("newColor");
     }
   }
 };
 button.addEventListener("click", buttons);
 
 const sextaFeira = () => {
-    let buttonsContainer = document.querySelector(".buttons-container");
-    let sextou = document.createElement("button");
-    sextou.id = "btn-friday";
-    sextou.innerText = "Sexta-Feira";
-    buttonsContainer.appendChild(sextou);
-  };
-  sextaFeira();
+  let buttonsContainer = document.querySelector(".buttons-container");
+  let sextou = document.createElement("button");
+  sextou.id = "btn-friday";
+  sextou.innerText = "Sexta-Feira";
+  buttonsContainer.appendChild(sextou);
+};
+sextaFeira();
 
-  let buttonFriday = document.getElementById("btn-friday");
+let buttonFriday = document.getElementById("btn-friday");
 const buttonsFriday = () => {
   const sextaFeira = document.querySelectorAll(".friday");
   for (let index = 0; index < sextaFeira.length; index += 1) {
     if (!sextaFeira[index].classList.contains("newColorFriday")) {
-    sextaFeira[index].classList.add("newColorFriday");
+      sextaFeira[index].classList.add("newColorFriday");
     } else {
-        sextaFeira[index].classList.remove("newColorFriday");
+      sextaFeira[index].classList.remove("newColorFriday");
     }
   }
 };
 buttonFriday.addEventListener("click", buttonsFriday);
 
+const zoom = document.querySelectorAll("div");
+const mouseOver = () => {
+  for (let index = 0; index < zoom.length; index += 1) {
+    zoom[index].addEventListener("click", (event) => {
+        console.log(zoom[index])
+      zoom[index].style.backgroundColor = "black";
+    });
+  }
+};
+mouseOver();
+// zoom.addEventListener("mouseover", mouseOver);
