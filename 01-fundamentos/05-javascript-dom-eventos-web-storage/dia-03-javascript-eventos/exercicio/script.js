@@ -133,6 +133,7 @@ const newTaskCor = (cor) => {
   taskContainer.appendChild(colorContainer);
 };
 newTaskCor("red");
+newTaskCor("blue");
 
 const taskSelected = () => {
   let colorContainer = document.querySelector(".task");
@@ -149,3 +150,41 @@ const taskSelected = () => {
 taskSelected();
 
 
+// Implemente uma função que atribua a cor da tarefa ao dia do calendário;
+// Adicione um evento que, ao clicar em um dia do mês no calendário, atribua a esse dia a cor da legenda da sua tarefa selecionada;
+// Ao clicar novamente no dia com a cor da legenda, a sua cor deverá voltar à configuração inicial rgb(119,119,119).
+
+// const atribuirCor = () => {
+//     let days = document.querySelector("#days");
+//     let selectedTask = document.getElementsByClassName("task selected");
+    
+    
+//     days.addEventListener('click', (event) => {
+//         let targetColor = event.target.style.backgroundColor;
+//         if(selectedTask !== targetColor){
+//             targetColor = selectedTask;
+//             console.log(selectedTask[0].backgroundColor);
+//         } else {
+//             targetColor = 'rgb(119,119,119)'
+//         }
+//     })
+// }
+// atribuirCor();
+
+const setDayColor = () => {
+    let selectedTask = document.getElementsByClassName('task selected');
+    let days = document.querySelector('#days');
+    let taskDiv = document.querySelector('.task');
+    let taskColor = taskDiv.style.backgroundColor;
+    
+    days.addEventListener('click', (event) => {
+      let eventTargetColor = event.target.style.color;
+      if (selectedTask.length > 0 && eventTargetColor !== taskColor) {
+        let color = selectedTask[0].style.backgroundColor; // Pega a cor de fundo do primeiro elemento salvo na variável "selectedTask" e salva na variável "color"
+        event.target.style.color = color; // atribui a cor salva na variável "color" ao evento alvo
+      } else if (eventTargetColor === taskColor) {
+        event.target.style.color = 'rgb(119,119,119)';  // Altera a cor de fundo do evento alvo para "rgb(119, 119, 119)"
+      }
+    });
+  }
+  setDayColor();
