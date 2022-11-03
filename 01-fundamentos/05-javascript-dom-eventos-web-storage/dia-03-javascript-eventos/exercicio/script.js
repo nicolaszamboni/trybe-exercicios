@@ -203,16 +203,23 @@ inputText.addEventListener("keypress", (event) => {
   if (event.key == "Enter") {
     paragraph.innerText = inputText.value;
     inputText.value = "";
-    inputContainer.appendChild(paragraph);
+    if(paragraph.innerText.length > 0){
+      inputContainer.appendChild(paragraph);
+      } else {
+        alerta(inputText);
+      }
   }
-  alerta(inputText);
+
 });
 
 let buttonAdd = document.querySelector("#btn-add");
 buttonAdd.addEventListener("click", (event) => {
-  alerta(inputText);
   let paragraph = document.createElement("p");
   paragraph.innerText = inputText.value;
   inputText.value = "";
+  if(paragraph.innerText.length > 0){
   inputContainer.appendChild(paragraph);
+  } else {
+    alerta(inputText);
+  }
 });
