@@ -75,6 +75,9 @@ const verificaWinner = () => {
         player.innerText;
       }
     }
+    if (i == combinacoes.length - 1 && contadorX > 0 && contadorO > 0 && contadorX != 3  && contadorO != 3) {
+      player.innerText = "EMPATOU";
+    }
     contadorX = 0;
     contadorO = 0;
     contador = 0;
@@ -89,6 +92,7 @@ const reset = () => {
     for (let i = 0; i < div.length; i += 1) {
       div[i].textContent = "";
     }
+    player.innerText = "Vez do jogador " + proximoJogador;
   });
 };
 reset();
