@@ -7,6 +7,7 @@ let divFontType = document.querySelectorAll(".family button");
 function changeBackground(event) {
   let bgTarget = event.target;
   document.body.style.backgroundColor = bgTarget.innerText;
+  localStorage.setItem("bgcolor", bgTarget.innerText);
 }
 
 for (let i = 0; i < divBackground.length; i += 1) {
@@ -16,6 +17,7 @@ for (let i = 0; i < divBackground.length; i += 1) {
 function changeColorText(event) {
   let textTarget = event.target;
   document.body.style.color = textTarget.textContent;
+  localStorage.setItem("text", textTarget.textContent);
 }
 
 for (let o = 0; o < divFontColor.length; o += 1) {
@@ -25,6 +27,7 @@ for (let o = 0; o < divFontColor.length; o += 1) {
 function changeFontSize(event) {
   let fontTarget = event.target;
   document.body.style.fontSize = fontTarget.textContent;
+  localStorage.setItem("font", fontTarget.textContent);
 }
 
 for (let u = 0; u < divFontSize.length; u += 1) {
@@ -34,6 +37,7 @@ for (let u = 0; u < divFontSize.length; u += 1) {
 function changeLineSpacing(event) {
   let lineTarget = event.target;
   document.body.style.lineHeight = lineTarget.textContent;
+  localStorage.setItem("line", lineTarget.textContent);
 }
 
 for (let e = 0; e < divLineSpacing.length; e += 1) {
@@ -41,10 +45,19 @@ for (let e = 0; e < divLineSpacing.length; e += 1) {
 }
 
 function changeFont(event) {
-    let fontTarget = event.target;
-    document.body.style.fontFamily = fontTarget.textContent;
-  }
-  
-  for (let a = 0; a < divFontType.length; a += 1) {
-    divFontType[a].addEventListener("click", changeFont);
-  }
+  let fontFamilyTarget = event.target;
+  document.body.style.fontFamily = fontFamilyTarget.textContent;
+  localStorage.setItem("fontFamily", fontFamilyTarget.textContent);
+}
+
+for (let a = 0; a < divFontType.length; a += 1) {
+  divFontType[a].addEventListener("click", changeFont);
+}
+
+window.onload = () => {
+  document.body.style.backgroundColor = localStorage.getItem("bgcolor");
+  document.body.style.color = localStorage.getItem("text");
+  document.body.style.fontSize = localStorage.getItem("font");
+  document.body.style.lineHeight = localStorage.getItem("line");
+  document.body.style.fontFamily = localStorage.getItem("fontFamily");
+};
