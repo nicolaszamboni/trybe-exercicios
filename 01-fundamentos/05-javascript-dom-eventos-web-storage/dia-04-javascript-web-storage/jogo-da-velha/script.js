@@ -55,13 +55,14 @@ const verificaWinner = () => {
   for (let i = 0; i < combinacoes.length; i += 1) {
     let combinacoesIndex = combinacoes[i];
     for (let o = 0; o < combinacoesIndex.length; o += 1) {
+      let idDiv = document.getElementById(`${combinacoesIndex[o]}`).textContent
+      console.log(idDiv)
       if (
-        "X" == document.getElementById(`${combinacoesIndex[o]}`).textContent
+        "X" == idDiv
       ) {
         contadorX += 1;
-        console.log(contadorX);
       } else if (
-        "O" == document.getElementById(`${combinacoesIndex[o]}`).textContent
+        "O" == idDiv
       ) {
         contadorO += 1;
       } else {
@@ -71,12 +72,11 @@ const verificaWinner = () => {
         player.innerText = "Jogador X ganhou";
       } else if (contadorO === 3) {
         player.innerText = "Jogador O ganhou";
+      // } else if (idDiv[0] != "" && idDiv[1] != "" && idDiv[2] != "" && idDiv[3] != "" && idDiv[4] != "" && idDiv[5] != "" && idDiv[6] != "" && idDiv[7] != "" && idDiv[8] != ""){
+      //   player.innerText = "EMPATOU";
       } else {
         player.innerText;
       }
-    }
-    if (i == combinacoes.length - 1 && contadorX > 0 && contadorO > 0 && contadorX != 3  && contadorO != 3) {
-      player.innerText = "EMPATOU";
     }
     contadorX = 0;
     contadorO = 0;
