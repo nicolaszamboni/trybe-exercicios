@@ -47,4 +47,14 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 5-5: _Projeto - Arte com Pixels_
 - [x] 5-6: _Projetos Bônus_
 
+#### Bloco 6: [HTML e CSS: Forms, Flexbox e Responsivo](https://github.com/nicolaszamboni/trybe-exercicios/tree/main/01-fundamentos/05-javascript-dom-eventos-web-storage)
+
+- [x] 6-1: _HTML & CSS - Forms_
+- [ ] 6-2: _Bibliotecas JavaScript e Frameworks CS_
+- [ ] 6-3: _CSS Flexbox - Parte 1_
+- [ ] 6-4: _CSS Flexbox - Parte 2_
+- [ ] 6-5: _CSS Responsivel - Mobile First_
+- [ ] 6-6: _Projetos Trybewarts_
+
+
 #### CONTINUA
