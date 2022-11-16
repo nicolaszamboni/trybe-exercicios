@@ -1,0 +1,115 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  text-align: center;
+}
+
+main {
+  display: inline-block;
+  border: black solid 1px;
+  padding: 30px;
+}
+
+.header-trybe {
+  display: block;
+  text-align: center;
+  height: 150px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid;
+  width: 100%;
+}
+
+.header-trybe img {
+  margin-top: 12px;
+  height: 70px;
+}
+
+.hotel-form {
+  margin: 25px;
+  color: rgb(73, 73, 73);
+  font-size: 25px;
+}
+
+.checkin {
+  display: flex;
+  justify-content: center;
+}
+
+.checkin input {
+  width: 200px;
+  margin-right: 30px;
+  margin-left: 10px;
+}
+
+.checkin input:last-child {
+  margin-right: 0;
+}
+
+.type {
+  border: 0.5px solid #dcdcdc;
+  padding: 20px 0;
+  width: 50%;
+  margin: auto;
+  border-radius: 15px;
+}
+
+.nPessoas {
+  width: 30%;
+  margin: 0px auto;
+}
+
+.obs {
+  box-sizing: content-box;
+  padding: 10px;
+  resize: none;
+  width: 90%;
+  height: 100px;
+  margin: 0px auto;
+}
+
+.btn {
+  padding: 20px 30px;
+}
+
+@media screen  and (max-width: 600px) {
+  .hotel-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    -webkit-box-shadow: 2px 2px 8px 4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 8px 4px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 8px 4px rgba(0,0,0,0.75);
+    border-radius: 14px;
+    width: 60%;
+  }
+  .checkin input {
+    margin: 0;
+    padding: 0;
+    font-size: 16;
+  }
+  .hotel-form textarea {
+    width: 50%;
+  }
+  .form {
+    font-size: 10px;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body {
+    background: rgb(181, 181, 181);
+    background: linear-gradient(
+      90deg,
+      rgba(181, 181, 181, 1) 0%,
+      rgba(47, 191, 93, 1) 100%
+    );
+  }
+}
+
+/* Seu código aqui */
