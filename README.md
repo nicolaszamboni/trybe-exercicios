@@ -47,7 +47,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 5-5: _Projeto - Arte com Pixels_
 - [x] 5-6: _Projetos Bônus_
 
-#### Bloco 6: [HTML e CSS: Forms, Flexbox e Responsivo](https://github.com/nicolaszamboni/trybe-exercicios/tree/main/01-fundamentos/05-javascript-dom-eventos-web-storage)
+#### Bloco 6: [HTML e CSS: Forms, Flexbox e Responsivo](https://github.com/nicolaszamboni/trybe-exercicios/tree/main/01-fundamentos/06-html-e-css-forms-flexbox-responsivo)
 
 - [x] 6-1: _HTML & CSS - Forms_
 - [x] 6-2: _Bibliotecas JavaScript e Frameworks CS_
