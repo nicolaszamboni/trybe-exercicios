@@ -70,5 +70,3 @@ const lesson1 = {
     return total;
   }
   console.log(getNumberOfStudentsMath(allLessons));
-
-  
