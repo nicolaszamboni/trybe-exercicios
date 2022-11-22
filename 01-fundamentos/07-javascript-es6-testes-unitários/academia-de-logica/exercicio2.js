@@ -52,18 +52,28 @@ const charsOfGot = (chars) => {
     const houses = {};
   
     for (let index of chars) {
-      if (Object.keys(houses).includes(index.family)) {
-        houses[index.family].push(index.fullName);
-      } else {
+      if (!Object.keys(houses).includes(index.family)) {
         houses[index.family] = [index.fullName];
+      } else {
+        houses[index.family].push(index.fullName);
       }
     }
-
     return houses;
   };
   console.log(charsOfGot(gameOfThronesCharacters));
   charsOfGot(gameOfThronesCharacters)
 
-// const charsOfGot () {
-
+// const charsOfGot2 = (chars) => {
+//     const newHouses = {}
+//     for (let index of chars) {
+//     if(Object.keys(newHouses).includes(index.family)){
+//         newHouses[index.family].push(index.fullName);
+        
+//     } else {
+//         newHouses[index.family] = index.fullName
+//     }
+//     }
+//     console.log(newHouses)
+//     return newHouses;
 // }
+// charsOfGot2(gameOfThronesCharacters)
