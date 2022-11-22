@@ -17,3 +17,36 @@ const movieRatings = {
   */
   
   // Escreva seu código aqui!
+
+  const averageRating = (object) => {
+    const moviesRatingList = Object.values(object);
+    let sumRating = 0;
+  
+    for (let rating of moviesRatingList) {
+      sumRating += rating 
+    }
+  
+    return sumRating / moviesRatingList.length;
+  }
+  
+  const findMovieOrAvgRating = (object, movie) => {
+    if (movie) {
+      const moviesList = Object.keys(object);
+      return moviesList.includes(movie);
+    }
+  
+    return averageRating(object);
+  };
+
+  
+  console.log(
+    findMovieOrAvgRating(movieRatings, 'The Matrix')
+  ); // true
+  
+  console.log(
+    findMovieOrAvgRating(movieRatings, 'The Xablau Chronicles')
+  ); // false
+  
+  console.log(
+    findMovieOrAvgRating(movieRatings)
+  ); // 8.74
