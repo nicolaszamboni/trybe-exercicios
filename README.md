@@ -56,11 +56,11 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 6-5: _CSS Responsivel - Mobile First_
 - [x] 6-6: _Projetos Trybewarts_
 
-#### Bloco 7: [Introdução à JavaScript ES6 e Testes Unitários](https://github.com/nicolaszamboni/trybe-exercicios/tree/main/01-fundamentos/05-javascript-dom-eventos-web-storage)
+#### Bloco 7: [Introdução à JavaScript ES6 e Testes Unitários](https://github.com/nicolaszamboni/trybe-exercicios/tree/main/01-fundamentos/07-javascript-es6-testes-unitarios)
 
 - [x] 7-1: _Fluxo de exceções e manipulação de objetos_
 - [x] 7-2: _Primeiros passos em Jest_
 - [x] 7-3: _Matchers e cobertura de código_
-- [ ] 7-4: _Projeto - JavaScript Testes Unitários_
+- [x] 7-4: _Projeto - JavaScript Testes Unitários_
 
 #### CONTINUA
