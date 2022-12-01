@@ -98,4 +98,27 @@ const longestName = () => {
   });
 };
 
-console.log(longestName());
+// console.log(longestName());
+
+const names = [
+  "Aanemarie",
+  "Adervandes",
+  "Akifusa",
+  "Abegildo",
+  "Adicellia",
+  "Aladonata",
+  "Abeladerco",
+  "Adieidy",
+  "Alarucha",
+];
+
+const expectedResult4 = 20;
+
+const countA = () => {
+    const letterA = names.join('').toLowerCase().split('');;
+    return letterA.reduce((acc, curr) => {
+        return curr === 'a' ? acc += 1 : acc;
+    }, 0)
+};
+
+console.log(countA())
