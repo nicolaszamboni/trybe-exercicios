@@ -144,13 +144,18 @@ const result = booksByAuthorBirthYear(1920);
 // console.log(booksByAuthorBirthYear(1920));
 
 const expectedResult4 = [
-    'Frank Herbert',
-    'George R. R. Martin',
-    'Isaac Asimov',
-    'J. R. R. Tolkien',
-  ];
-  
-  const fantasyOrScienceFictionAuthors = () => {
-    // escreva seu código aqui
-  }
+  "Frank Herbert",
+  "George R. R. Martin",
+  "Isaac Asimov",
+  "J. R. R. Tolkien",
+];
 
+const fantasyOrScienceFictionAuthors = () => {
+  return books
+    .filter(
+      (book) => book.genre === "Ficção Científica" || book.genre === "Fantasia")
+    .map((book) => book.author.name)
+    .sort();
+};
+
+console.log(fantasyOrScienceFictionAuthors());
