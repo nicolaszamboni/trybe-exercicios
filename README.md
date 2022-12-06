@@ -66,9 +66,9 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 #### Bloco 7: [Introdução à JavaScript ES6 e Testes Unitários](https://github.com/nicolaszamboni/trybe-exercicios/tree/main/01-fundamentos/07-javascript-es6-testes-unitarios)
 
 - [x] 8-1: _Introdução a Higher Order Functions_
-- [ ] 8-2: _Higher Order Functions - sort e map_
-- [ ] 8-3: _Higher Order Functions - filter e reduce_
-- [ ] 8-4: _JavaScript ES6 - spread operator, rest parameters e object destructuring_
+- [x] 8-2: _Higher Order Functions - sort e map_
+- [x] 8-3: _Higher Order Functions - filter e reduce_
+- [x] 8-4: _JavaScript ES6 - spread operator, rest parameters e object destructuring_
 - [ ] 8-5: _JavaScript ES6 - Array destructuring, Default destructuring, Object property shorthand e default parameters_
 - [ ] 8-6: _Projeto - Zoo functions_
 
