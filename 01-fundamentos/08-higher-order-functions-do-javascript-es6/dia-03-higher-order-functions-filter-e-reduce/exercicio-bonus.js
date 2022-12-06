@@ -97,3 +97,26 @@ const averageAge = () => {
 }
 
 // console.log(averageAge())
+
+const expectedResult3 = {
+    id: 1,
+    name: 'As Crônicas de Gelo e Fogo',
+    genre: 'Fantasia',
+    author: {
+      name: 'George R. R. Martin',
+      birthYear: 1948,
+    },
+    releaseYear: 1991,
+  };
+  
+  const longestNamedBook = () => {
+    return books.reduce((biggestBook, currentBook) => {
+        if (biggestBook.name.length < currentBook.name.length){
+            return currentBook;
+        } else {
+            return biggestBook;
+        }
+    });
+  }
+
+  console.log(longestNamedBook())
