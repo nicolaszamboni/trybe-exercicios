@@ -1,7 +1,12 @@
-// array original
-const items = ['Camiseta', 'Carregador', 'Chinelo'];
-
-// cria um novo array com os itens do array original espalhados
-const newItems = [...items];
-
-console.log(newItems)
+const student = {
+    a: 'Maria',
+    b: 'Turma B',
+    c: 'Matematica',
+  };
+  
+  const { a, b, c} = student;
+  
+  console.log(a); // Maria
+  console.log(b); // Turma B
+  console.log(c); // Matemática
+  
