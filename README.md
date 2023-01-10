@@ -72,4 +72,14 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 8-5: _JavaScript ES6 - Array destructuring, Default destructuring, Object property shorthand e default parameters_
 - [x] 8-6: _Projeto - Zoo functions_
 
+## Módulo 1 - [Front-end](https://github.com/nicolaszamboni/trybe-exercicios/tree/main/02-front-end) :floppy_disk:
+
+##### Bloco 1: [Introdução - Unix & Bash](https://github.com/nicolaszamboni/trybe-exercicios/tree/main/01-fundamentos/01-unix-bash)
+
+- [x] 1-1: _Ambiente de desenvolvimento_
+- [ ] 1-2: _JavaScript Assíncrono - Promises e fetch_
+- [ ] 1-3: _Prática - Casa de Câmbio_
+- [ ] 1-4: _Async, await e testes assíncronos_
+- [ ] 1-5: _Projeto - Carrinho de Compras_
+
 #### CONTINUA
