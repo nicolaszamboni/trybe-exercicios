@@ -72,14 +72,20 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 8-5: _JavaScript ES6 - Array destructuring, Default destructuring, Object property shorthand e default parameters_
 - [x] 8-6: _Projeto - Zoo functions_
 
-## Módulo 1 - [Front-end](https://github.com/nicolaszamboni/trybe-exercicios/tree/main/02-front-end) :floppy_disk:
+## Módulo 2 - [Front-end](https://github.com/nicolaszamboni/trybe-exercicios/tree/main/02-front-end) :floppy_disk:
 
-##### Bloco 1: [Introdução - Unix & Bash](https://github.com/nicolaszamboni/trybe-exercicios/tree/main/01-fundamentos/01-unix-bash)
+##### Bloco 1: [Introdução ao Frontend e JavaScript assíncrono](https://github.com/nicolaszamboni/trybe-exercicios/tree/main/01-fundamentos/01-unix-bash)
 
 - [x] 1-1: _Ambiente de desenvolvimento_
 - [x] 1-2: _JavaScript Assíncrono - Promises e fetch_
-- [ ] 1-3: _Prática - Casa de Câmbio_
-- [ ] 1-4: _Async, await e testes assíncronos_
-- [ ] 1-5: _Projeto - Carrinho de Compras_
+- [x] 1-3: _Prática - Casa de Câmbio_
+- [x] 1-4: _Async, await e testes assíncronos_
+- [x] 1-5: _Projeto - Carrinho de Compras_
+
+##### Bloco 2: [Indtrodução ao React!](https://github.com/nicolaszamboni/trybe-exercicios/tree/main/01-fundamentos/01-unix-bash)
+
+- [x] 2-1: _Hello, world! No React!_
+- [x] 2-2: _Componentes React_
+- [ ] 2-3: _Projeto - Solar System_
 
 #### CONTINUA
