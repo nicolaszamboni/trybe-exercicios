@@ -63,7 +63,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 7-3: _Matchers e cobertura de código_
 - [x] 7-4: _Projeto - JavaScript Testes Unitários_
 
-#### Bloco 7: [Introdução à JavaScript ES6 e Testes Unitários](https://github.com/nicolaszamboni/trybe-exercicios/tree/main/01-fundamentos/07-javascript-es6-testes-unitarios)
+#### Bloco 8: [Higher Order Functions do JavaScript ES6](https://github.com/nicolaszamboni/trybe-exercicios/tree/main/01-fundamentos/08-higher-order-functions-do-javascript-es6)
 
 - [x] 8-1: _Introdução a Higher Order Functions_
 - [x] 8-2: _Higher Order Functions - sort e map_
@@ -74,7 +74,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ## Módulo 2 - [Front-end](https://github.com/nicolaszamboni/trybe-exercicios/tree/main/02-front-end) :floppy_disk:
 
-##### Bloco 1: [Introdução ao Frontend e JavaScript assíncrono](https://github.com/nicolaszamboni/trybe-exercicios/tree/main/01-fundamentos/01-unix-bash)
+##### Bloco 1: [Introdução ao Frontend e JavaScript assíncrono](https://github.com/nicolaszamboni/trybe-exercicios/tree/main/02-front-end/01-introducao-front-end-e-javascript-assincrono)
 
 - [x] 1-1: _Ambiente de desenvolvimento_
 - [x] 1-2: _JavaScript Assíncrono - Promises e fetch_
@@ -82,7 +82,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 1-4: _Async, await e testes assíncronos_
 - [x] 1-5: _Projeto - Carrinho de Compras_
 
-##### Bloco 2: [Indtrodução ao React!](https://github.com/nicolaszamboni/trybe-exercicios/tree/main/01-fundamentos/01-unix-bash)
+##### Bloco 2: [Indtrodução ao React!](https://github.com/nicolaszamboni/trybe-exercicios/tree/main/02-front-end/02-introducao-ao-react)
 
 - [x] 2-1: _Hello, world! No React!_
 - [x] 2-2: _Componentes React_
