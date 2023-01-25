@@ -12,6 +12,11 @@ class App extends React.Component {
       numeroDeCliques3: 0,
     }
   }
+
+  getButtonColor(num) {
+    return num % 2 === 0 ? 'green' : 'white';
+  }
+
   handleClick1() {
     console.log(this);
     console.log("Clicou no botão 1!");
@@ -19,6 +24,7 @@ class App extends React.Component {
       numeroDeCliques1: estadoAnterior.numeroDeCliques1 + 1,
     }));
   }
+
   handleClick2() {
     console.log(this);
     console.log("Clicou no botão 2!");
@@ -26,6 +32,7 @@ class App extends React.Component {
       numeroDeCliques2: estadoAnterior.numeroDeCliques2 + 1,
     }));
   }
+
   handleClick3 = () => {
     console.log(this);
     console.log("Clicou no botão 3!");
@@ -33,13 +40,14 @@ class App extends React.Component {
       numeroDeCliques3: estadoAnterior.numeroDeCliques3 + 1,
     }));
   }
+
   render() {
     const { numeroDeCliques1, numeroDeCliques2, numeroDeCliques3 } = this.state;
     return (
       <>
-        <button onClick={this.handleClick1}>{ numeroDeCliques1 }</button>
-        <button onClick={this.handleClick2}>{ numeroDeCliques2 }</button>
-        <button onClick={this.handleClick3}>{ numeroDeCliques3 }</button>
+        <button onClick={this.handleClick1} style={{backgroundColor: this.getButtonColor(numeroDeCliques1)}}>{ numeroDeCliques1 }</button>
+        <button onClick={this.handleClick2} style={{backgroundColor: this.getButtonColor(numeroDeCliques2)}}>{ numeroDeCliques2 }</button>
+        <button onClick={this.handleClick3} style={{backgroundColor: this.getButtonColor(numeroDeCliques3)}}>{ numeroDeCliques3 }</button>
       </>
     );
   }
