@@ -86,6 +86,12 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [x] 2-1: _Hello, world! No React!_
 - [x] 2-2: _Componentes React_
-- [ ] 2-3: _Projeto - Solar System_
+- [x] 2-3: _Projeto - Solar System_
+
+##### Bloco 3: [Componentes com Estado, Eventos e Formulários com React](https://github.com/nicolaszamboni/trybe-exercicios/tree/main/02-front-end/02-introducao-ao-react)
+
+- [x] 3-1: _Componentes com estado e eventos_
+- [ ] 3-2: _Formulários no react_
+- [ ] 3-3: _Projeto - Tryunfo_
 
 #### CONTINUA
