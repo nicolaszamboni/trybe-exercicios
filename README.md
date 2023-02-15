@@ -105,7 +105,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 5-1: _Metodologias Ágeis_
 - [x] 5-2: _Projeto - Front-end Online Store_
 
-##### Bloco 4: [Testes automatizados com React Testing Library](https://github.com/nicolaszamboni/trybe-exercicios/tree/main/02-front-end/02-introducao-ao-react)
+##### Bloco 6: [Testes automatizados com React Testing Library](https://github.com/nicolaszamboni/trybe-exercicios/tree/main/02-front-end/02-introducao-ao-react)
 
 - [x] 5-1: _RTL - Primeiros passos_
 - [ ] 5-2: _RTL - Mocks e Inputs_
