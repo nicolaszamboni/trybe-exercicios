@@ -107,9 +107,9 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 6: [Testes automatizados com React Testing Library](https://github.com/nicolaszamboni/trybe-exercicios/tree/main/02-front-end/02-introducao-ao-react)
 
-- [x] 5-1: _RTL - Primeiros passos_
-- [ ] 5-2: _RTL - Mocks e Inputs_
-- [ ] 5-3: _RTL - Testando React Router_
-- [ ] 5-4: _Projeto - Testes em React_
+- [x] 6-1: _RTL - Primeiros passos_
+- [ ] 6-2: _RTL - Mocks e Inputs_
+- [ ] 6-3: _RTL - Testando React Router_
+- [ ] 6-4: _Projeto - Testes em React_
 
 #### CONTINUA
