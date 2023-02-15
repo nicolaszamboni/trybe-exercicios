@@ -94,4 +94,10 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 3-2: _Formulários no react_
 - [x] 3-3: _Projeto - Tryunfo_
 
+##### Bloco 4: [Ciclo de Vida de Componentes e React Router](https://github.com/nicolaszamboni/trybe-exercicios/tree/main/02-front-end/02-introducao-ao-react)
+
+- [x] 4-1: _Ciclo de vida de componentes_
+- [x] 4-2: _React Router_
+- [x] 4-3: _Projeto - TrybeTunes_
+
 #### CONTINUA
