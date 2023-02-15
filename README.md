@@ -100,4 +100,9 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 4-2: _React Router_
 - [x] 4-3: _Projeto - TrybeTunes_
 
+##### Bloco 5: [Metodologias Ágeis](https://github.com/nicolaszamboni/trybe-exercicios/tree/main/02-front-end/02-introducao-ao-react)
+
+- [x] 5-1: _Metodologias Ágeis_
+- [x] 5-2: _Projeto - Front-end Online Store_
+
 #### CONTINUA
