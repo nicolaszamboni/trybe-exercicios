@@ -114,10 +114,35 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 7: [Gerenciamento de estado com Redux](https://github.com/nicolaszamboni/trybe-exercicios/tree/main/02-front-end/02-introducao-ao-react)
 
-- [x] 6-1: _RTL - Primeiros passos_
-- [x] 6-2: _RTL - Mocks e Inputs_
-- [x] 6-3: _RTL - Testando React Router_
-- [x] 6-4: _Projeto - Testes em React_
+- [x] 7-1: _Introdução ao Redux - O estado global da aplicação_
+- [x] 7-2: _Usando Redux no React_
+- [x] 7-3: _Usando Redux no React - Prática_
+- [x] 7-4: _Usando Redux no React - Prática_
+- [x] 7-5: _Testes em React-Redux_
+- [x] 7-6: _Projeto - Trybe Wallet_
 
+##### Bloco 8: [Projeto Jogo de Trivia](https://github.com/nicolaszamboni/trybe-exercicios/tree/main/02-front-end/02-introducao-ao-react)
+
+- [x] 8-1: _Projeto - Jogo de Trivia_
+
+##### Bloco 9: [Context API e React Hooks](https://github.com/nicolaszamboni/trybe-exercicios/tree/main/02-front-end/02-introducao-ao-react)
+
+- [x] 9-1: _React Hooks - useState e useEffect_
+- [x] 9-2: _Context API_
+- [x] 9-3: _Custom Hooks_
+- [x] 9-4: _Projeto - StarWars_
+
+##### Bloco 10: [Projeto App de Receitas](https://github.com/nicolaszamboni/trybe-exercicios/tree/main/02-front-end/02-introducao-ao-react)
+
+- [x] 10-1: _Projeto - App de Receitas_
+
+## Módulo 2 - [Front-end](https://github.com/nicolaszamboni/trybe-exercicios/tree/main/02-front-end) :floppy_disk:
+
+##### Bloco 1: [Docker: Utilizando Containers](https://github.com/nicolaszamboni/trybe-exercicios/tree/main/02-front-end/01-introducao-front-end-e-javascript-assincrono)
+
+- [x] 1-1: _Utilizando Containers - Docker_
+- [ ] 1-2: _Manipulando Imagens no Docker_
+- [ ] 1-3: _Orquestrando Containers com Docker Compose_
+- [ ] 1-4: _Projeto - Docker Todo-List_
 
 #### CONTINUA
