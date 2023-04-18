@@ -136,5 +136,13 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [x] 10-1: _Projeto - App de Receitas_
 
+## Módulo 2 - [Front-end](https://github.com/nicolaszamboni/trybe-exercicios/tree/main/02-front-end) :floppy_disk:
+
+##### Bloco 1: [Docker: Utilizando Containers](https://github.com/nicolaszamboni/trybe-exercicios/tree/main/02-front-end/01-introducao-front-end-e-javascript-assincrono)
+
+- [x] 1-1: _Utilizando Containers - Docker_
+- [ ] 1-2: _Manipulando Imagens no Docker_
+- [ ] 1-3: _Orquestrando Containers com Docker Compose_
+- [ ] 1-4: _Projeto - Docker Todo-List_
 
 #### CONTINUA
