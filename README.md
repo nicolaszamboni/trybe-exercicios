@@ -136,7 +136,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [x] 10-1: _Projeto - App de Receitas_
 
-## Módulo 2 - [Front-end](https://github.com/nicolaszamboni/trybe-exercicios/tree/main/02-front-end) :floppy_disk:
+## Módulo 3 - [Back-end](https://github.com/nicolaszamboni/trybe-exercicios/tree/main/02-front-end) :floppy_disk:
 
 ##### Bloco 1: [Docker: Utilizando Containers](https://github.com/nicolaszamboni/trybe-exercicios/tree/main/02-front-end/01-introducao-front-end-e-javascript-assincrono)
 
